@@ -13,9 +13,9 @@
     --card-foreground: 0 0% 98%;
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 185 73% 46%;
+    --primary: 273 67% 58%;
     --primary-foreground: 0 0% 98%;
-    --secondary: 172 66% 50%;
+    --secondary: 262 83% 58%;
     --secondary-foreground: 0 0% 98%;
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
@@ -25,7 +25,7 @@
     --destructive-foreground: 0 0% 98%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
-    --ring: 185 73% 46%;
+    --ring: 273 67% 58%;
     --radius: 0.75rem;
   }
 
@@ -51,14 +51,20 @@
                 0 0 15px theme('colors.cyan.500');
   }
   
+  .neon-border-purple {
+    box-shadow: 0 0 5px theme('colors.purple.500'), 
+                0 0 10px theme('colors.purple.500'), 
+                0 0 15px theme('colors.purple.500');
+  }
+  
   .neon-text {
-    text-shadow: 0 0 5px theme('colors.cyan.500'), 
-                 0 0 10px theme('colors.cyan.500');
+    text-shadow: 0 0 5px theme('colors.purple.500'), 
+                 0 0 10px theme('colors.purple.500');
   }
   
   .neon-text-pink {
-    text-shadow: 0 0 5px theme('colors.teal.500'), 
-                 0 0 10px theme('colors.teal.500');
+    text-shadow: 0 0 5px theme('colors.violet.500'), 
+                 0 0 10px theme('colors.violet.500');
   }
   
   .glow-button {
@@ -76,7 +82,7 @@
     right: -2px;
     bottom: -2px;
     z-index: -1;
-    background: linear-gradient(45deg, #00e5ff, #00ccff, #00b8e6, #0099cc);
+    background: linear-gradient(45deg, #a855f7, #8b5cf6, #7c3aed, #6d28d9);
     background-size: 400%;
     border-radius: 10px;
     animation: glowing 20s linear infinite;
@@ -90,7 +96,7 @@
   
   .glow-button:hover {
     color: white;
-    box-shadow: 0 0 20px rgba(0, 204, 255, 0.5);
+    box-shadow: 0 0 20px rgba(138, 92, 246, 0.5);
   }
   
   @keyframes glowing {
@@ -111,7 +117,7 @@
   
   .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 30px rgba(0, 204, 255, 0.4);
+    box-shadow: 0 0 30px rgba(138, 92, 246, 0.4);
   }
 }
 
@@ -135,10 +141,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #06b6d4;
+  background: #8b5cf6;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0891b2;
+  background: #7c3aed;
 }
