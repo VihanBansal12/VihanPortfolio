@@ -5,8 +5,8 @@ const HeroSection = () => {
   return (
     <section id="hero" className="min-h-screen flex items-center pt-16 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute top-1/3 left-1/4 w-64 h-64 rounded-full bg-purple-700/30 blur-[100px]"></div>
-        <div className="absolute bottom-1/4 right-1/3 w-72 h-72 rounded-full bg-blue-700/20 blur-[100px]"></div>
+        <div className="absolute top-1/3 left-1/4 w-64 h-64 rounded-full bg-teal-500/30 blur-[100px]"></div>
+        <div className="absolute bottom-1/4 right-1/3 w-72 h-72 rounded-full bg-cyan-500/20 blur-[100px]"></div>
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -14,8 +14,8 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 text-center lg:text-left mb-10 lg:mb-0">
             <h3 className="text-gray-300 text-xl mb-2">Hello, I'm</h3>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 neon-text">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500">
-                Your Name
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-teal-500">
+                Vihan Bansal
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 neon-text-pink">
@@ -27,13 +27,13 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <a 
                 href="#projects" 
-                className="glow-button px-8 py-3 rounded-md bg-purple-700 text-white font-medium"
+                className="glow-button px-8 py-3 rounded-md bg-cyan-600 text-white font-medium"
               >
                 View Projects
               </a>
               <a 
                 href="#contact" 
-                className="px-8 py-3 rounded-md bg-transparent border border-purple-500 text-white font-medium hover:border-pink-500 transition-all duration-300"
+                className="px-8 py-3 rounded-md bg-transparent border border-cyan-500 text-white font-medium hover:border-teal-500 transition-all duration-300"
               >
                 Contact Me
               </a>
@@ -42,14 +42,14 @@ const HeroSection = () => {
           
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
             <div className="w-full max-w-sm lg:max-w-md relative">
-              <div className="rounded-lg overflow-hidden border border-purple-500/50 neon-border">
+              <div className="rounded-lg overflow-hidden border border-cyan-500/50 neon-border">
                 <img 
                   src="/lovable-uploads/d0ec42d9-cc6a-4acb-96bc-e7c22616a483.png" 
                   alt="Profile" 
                   className="w-full h-auto object-cover"
                 />
               </div>
-              <div className="absolute -z-10 inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 blur-xl rounded-lg transform translate-x-2 translate-y-2"></div>
+              <div className="absolute -z-10 inset-0 bg-gradient-to-r from-cyan-500/20 to-teal-500/20 blur-xl rounded-lg transform translate-x-2 translate-y-2"></div>
             </div>
           </div>
         </div>
