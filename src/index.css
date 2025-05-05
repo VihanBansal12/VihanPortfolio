@@ -67,6 +67,22 @@
                  0 0 10px theme('colors.violet.500');
   }
   
+  .hover-button {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .hover-button:hover {
+    color: white;
+    box-shadow: 0 0 10px rgba(138, 92, 246, 0.7), 
+                0 0 20px rgba(138, 92, 246, 0.5),
+                0 0 30px rgba(138, 92, 246, 0.3);
+    transform: translateY(-2px);
+    background: linear-gradient(45deg, #a855f7, #8b5cf6);
+  }
+
   .glow-button {
     position: relative;
     z-index: 1;

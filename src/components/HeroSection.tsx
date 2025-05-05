@@ -27,7 +27,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
               <a 
                 href="#projects" 
-                className="glow-button px-8 py-3 rounded-md bg-purple-700 text-white font-medium"
+                className="hover-button px-8 py-3 rounded-md bg-purple-700 text-white font-medium"
               >
                 View Projects
               </a>
