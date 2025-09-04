@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <a href="#hero" className="text-xl md:text-2xl font-bold tracking-wider neon-text text-white">
-            Dev<span className="text-purple-500">Portfolio</span>
+            Dev.<span className="text-purple-500">Portfolio</span>
           </a>
           
           {/* Mobile menu button */}
