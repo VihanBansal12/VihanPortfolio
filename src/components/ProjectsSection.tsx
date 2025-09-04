@@ -24,7 +24,7 @@ const projects = [
     description: "A web app for creating and managing tests with automated scoring, real-time analytics, and a smooth user experience",
     technologies: ["Next.js", "Shadcn UI", "TypeScript", "Tailwind CSS"],
     image: "https://unsplash.com/photos/a-man-using-a-laptop-computer-on-a-table-dztVNNwGxq0",
-    link: "mantrax.vercel.app"
+    link: "https://mantrax.vercel.app/"
   },
   {
     id: 4,
@@ -83,13 +83,15 @@ const ProjectsSection = () => {
                   ))}
                 </div>
                 
-                <a 
+               <a 
                   href={project.link} 
-                  target="_blank"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="glow-button inline-block px-5 py-2 bg-purple-700 text-white rounded-md"
                 >
                   View Project
                 </a>
+
               </div>
               
               {hoveredId === project.id && (
