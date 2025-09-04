@@ -85,7 +85,7 @@ const ProjectsSection = () => {
                 
                 <a 
                   href={project.link} 
-                  target=blank
+                  target="_blank"
                   className="glow-button inline-block px-5 py-2 bg-purple-700 text-white rounded-md"
                 >
                   View Project
