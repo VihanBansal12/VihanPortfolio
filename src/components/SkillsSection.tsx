@@ -6,9 +6,13 @@ const skills = [
   { name: 'CSS3', level: 85 },
   { name: 'JavaScript', level: 80 },
   { name: 'React.js', level: 75 },
+  { name: 'Next.js', level: 85 },
   { name: 'Bootstrap', level: 85 },
   { name: 'Tailwind CSS', level: 80 },
   { name: 'Git', level: 70 },
+  { name: 'Github', level: 75 },
+  { name: 'Netlify', level: 85 },
+  { name: 'Vercel', level: 85 },
   { name: 'Responsive Design', level: 90 },
 ];
 
