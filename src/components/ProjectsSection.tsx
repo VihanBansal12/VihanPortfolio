@@ -20,19 +20,19 @@ const projects = [
   },
   {
     id: 3,
-    title: "Task Management App",
-    description: "A task management application with drag-and-drop functionality, task categories, and productivity analytics.",
-    technologies: ["React", "TypeScript", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    link: "#"
+    title: "MantraX",
+    description: "A web app for creating and managing tests with automated scoring, real-time analytics, and a smooth user experience",
+    technologies: ["Next.js", "Shadcn UI", "TypeScript", "Tailwind CSS"],
+    image: "https://unsplash.com/photos/a-man-using-a-laptop-computer-on-a-table-dztVNNwGxq0",
+    link: "mantrax.vercel.app"
   },
   {
     id: 4,
     title: "Portfolio Website",
     description: "A personal portfolio website with smooth animations, dark mode, and custom illustrations.",
-    technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
+    technologies: ["HTML", "CSS", "JavaScript", "Next.js", "React"],
     image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
-    link: "#"
+    link: "https://vihan-portfolio.vercel.app/"
   }
 ];
 
